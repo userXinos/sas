@@ -24,12 +24,12 @@ jobs:
       - name: Build
         run: |
           pnpm install 
-          pnpm build
+          pnpm generate
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           branch: gh-pages
-          folder: dist
+          folder: .output/public
           git-config-name: "GitHub Actions"
           git-config-email: "actions@github.com"
