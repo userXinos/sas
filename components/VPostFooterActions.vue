@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import FingerDownIcon from 'public/finger-down.svg';
+import HeartIcon from 'public/heart.svg';
 import { computed } from 'vue';
-import FingerDownIcon from '~/accets/finger-down.svg';
-import HeartIcon from '~/accets/heart.svg';
 import { usePostsStore } from '~/stores/posts';
 import type { Post } from '~/types/Public';
 

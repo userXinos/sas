@@ -45,7 +45,7 @@ defineProps<{
     content: '';
     width: 10px;
     height: 17px;
-    background: url("~/accets/Tail.svg");
+    background: url("public/Tail.svg");
     position: absolute;
     left: -10px;
     top: 0
