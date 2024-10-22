@@ -1,6 +1,10 @@
 # Sas
 
-Deploy: [userxinos.github.io/sas](https://userxinos.github.io/sas/)
+Deploy: [userxinos.github.io/sas](https://userxinos.github.io/sas/) 
+
+> прим: иконки не загружаются на деполе, nuxt не может найти /public директорию.
+> 
+> На бесплатном плане не нашёл в фигме куда смотреть где и какие стили шрифтов используются на тексте
 
 ## Setup
 
